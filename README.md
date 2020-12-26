@@ -1,1 +1,1 @@
-foosz.github.io
+yyc1280.github.io
