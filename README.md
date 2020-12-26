@@ -1,1 +1,1 @@
-# yyc.github.io
+foosz.github.io
