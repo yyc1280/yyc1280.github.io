@@ -1,0 +1,62 @@
+export default {
+  pages: [
+    {
+      name: "AJ",
+      title: "AJ Boutique",
+      text: "具購物車功能並串接金流的購物網站，使用Node.js作為後端、MongoDB Atlas作為資料庫，串接綠界ECPay。使用passport的Google OAuth2.0 authentication strategy。",
+      image: "AJ",
+      link: "https://aj-boutique.vercel.app/",
+      github: "https://github.com/yyc1280/AJ-frontEnd",
+    },
+
+    {
+      name: "ENCalendar",
+      title: "EN Calendar",
+      text: "由於沉迷vtuber而做的實況主行程表，使用FullCalendar串接google calendar。由於已經有觀眾做過了，只好借他的google calendar ID一用，做了一個類似但不盡相同的版本，顯示及隱藏的設定會儲存在local storage。",
+      image: "EN",
+      link: "https://holo-en-calendar.vercel.app/",
+      github: "https://github.com/yyc1280/HoloEN-Calendar",
+    },
+    {
+      name: "TaskManager",
+      title: "Task Manager",
+      text: "使用Node.js作為後端，React作為前端的todo list，使用者可以註冊。Node.js部分為看Udemy學習，為了熟悉MERN stack以及Redux而做了前端。",
+      image: "TM",
+      link: "https://task-manager-front-end.vercel.app/",
+      github: "https://github.com/yyc1280/task-manager-frontEnd",
+    },
+    {
+      name: "spotify",
+      title: "Spotify Clone",
+      text: "使用React，使用者可取得個人播放清單、最近播放歌曲等，學習到React context API搭配useReducer的用法。",
+      image: "spotify",
+      link: "https://mini-spotify.vercel.app/",
+      github: "https://github.com/yyc1280/mini-spotify",
+    },
+    {
+      name: "twitch",
+      title: "Twitch APP",
+      text: "串接Twitch API作為練習，並實作infinite scroll，學習到wabpack、gulp的用途以及初步的使用方法。",
+      image: "twitch",
+      link: "https://mini-twitch.vercel.app/",
+      github: "https://github.com/yyc1280/mini-twitch",
+      skill: "",
+    },
+    {
+      name: "FEMentor1",
+      title: "Countdown Timer",
+      text: "使用Frontend Mentor提供的題目來練習切版。",
+      image: "FEM1",
+      link: "https://fe-mentor-countdown-timer.vercel.app/",
+      github: "https://github.com/yyc1280/FEmentor-countdown-timer",
+    },
+    {
+      name: "FEMentor2",
+      title: "Tip Calculator App",
+      text: "使用Frontend Mentor提供的題目來練習切版。",
+      image: "FEM2",
+      link: "https://fe-mentor-tip-calculator-app.vercel.app/",
+      github: "https://github.com/yyc1280/FEmentor-Tip-calculator-app",
+    },
+  ],
+}
