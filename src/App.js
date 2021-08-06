@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { hot } from "react-hot-loader"
-import { BrowserRouter, Switch, Route } from "react-router-dom"
+import { HashRouter, Switch, Route } from "react-router-dom"
 import "../style/style.css"
 import Nav from "./Nav"
 import Portfolio from "./Portfolio"
@@ -10,7 +10,7 @@ import Work from "./Work"
 const App = () => {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Nav />
 
         <Switch>
@@ -27,7 +27,7 @@ const App = () => {
             <Portfolio />
           </Route>
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
 }
