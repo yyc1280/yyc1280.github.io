@@ -129,8 +129,8 @@ body {
     }
     .links {
       margin-left: auto;
-      width: 70%;
-      margin-top: 3vw;
+      width: 470px;
+      margin-top: 2vw;
       display: flex;
       justify-content: space-evenly;
       a {
@@ -213,7 +213,8 @@ body {
       .left {
         width: 100%;
         .links {
-          width: 100%;
+          margin: 10px auto;
+          width: 50%;
           a {
             .link {
               padding: 10px;
