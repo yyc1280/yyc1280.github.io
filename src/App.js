@@ -12,19 +12,15 @@ const App = () => {
     <div className="App">
       <HashRouter>
         <Nav />
-
         <Switch>
+          <Route path="/" exact>
+            <Portfolio />
+          </Route>
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/portfolio" exact>
-            <Portfolio />
-          </Route>
           <Route path="/portfolio/:name">
             <Work />
-          </Route>
-          <Route path="/">
-            <Portfolio />
           </Route>
         </Switch>
       </HashRouter>
