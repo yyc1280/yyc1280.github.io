@@ -58,5 +58,13 @@ export default {
       link: "https://fe-mentor-tip-calculator-app.vercel.app/",
       github: "https://github.com/yyc1280/FEmentor-Tip-calculator-app",
     },
+    {
+      name: "FEMentor3",
+      title: "IP Address Tracker",
+      text: "使用Frontend Mentor提供的題目來練習切版。",
+      image: "FEM3",
+      link: "https://yyc1280.github.io/FEMentor-Map/",
+      github: "https://github.com/yyc1280/FEMentor-Map",
+    },
   ],
 }
