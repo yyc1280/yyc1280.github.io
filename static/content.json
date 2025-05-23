@@ -1,16 +1,28 @@
 {
   "about": {
     "bio": "陳彥瑜，台中人。大學主修化學，畢業後參加勞動部產業新尖兵計畫，首次接觸前端開發並深受吸引，之後持續透過線上資源自學網頁技術。\n在前一份工作中，擔任遊戲前端工程師，使用 TypeScript 進行遊戲畫面開發，與企劃、美術、後端工程師協作，參與多款遊戲專案，熟悉多人協作流程與需求溝通。\n除開發經驗外，我擁有還不錯的的語言能力（TOEIC 925、JLPT N1），能閱讀外語技術文件，自學與研究能力強。雖然非本科系出身，但我重視持續學習與實務經驗累積，過去的自學與開發歷程正是我轉換跑道與成長的證明。",
-    "skills": ["HTML5", "CSS3(SCSS)", "Tailwind", "Bootstrap", "JavaScript(TypeScript)", "React", "Node.js", "Git", "PixiJS", "Cocos Creator","WebSocket"],
+    "skills": [
+      "HTML5",
+      "CSS3(SCSS)",
+      "Tailwind",
+      "Bootstrap",
+      "JavaScript(TypeScript)",
+      "React",
+      "Node.js",
+      "Git",
+      "PixiJS",
+      "Cocos Creator",
+      "WebSocket"
+    ],
     "contact": "yenyu335@gmail.com",
     "github": "https://github.com/yyc1280"
   },
   "pages": [
     {
-      "name": "FEMentor3",
+      "name": "FEMentor4",
       "title": "Space Tourism",
       "text": "使用Frontend Mentor提供的題目來練習切版。\n使用Tailwind CSS，也嘗試使用Framer Motion對React元件進行動畫設計。",
-      "image": "FEM_space",
+      "image": "FEM4_space",
       "link": "https://yyc1280.github.io/Frontend-Mentor-space-tourism-website/",
       "github": "https://github.com/yyc1280/Frontend-Mentor-space-tourism-website"
     },
@@ -30,7 +42,6 @@
       "link": "https://aj-boutique.vercel.app/",
       "github": "https://github.com/yyc1280/AJ-frontEnd"
     },
-
     {
       "name": "ENCalendar",
       "title": "EN Calendar",
@@ -46,6 +57,14 @@
       "image": "TM",
       "link": "https://task-manager-front-end.vercel.app/",
       "github": "https://github.com/yyc1280/task-manager-frontEnd"
+    },
+    {
+      "name": "FEMentor3",
+      "title": "IP Address Tracker",
+      "text": "使用Frontend Mentor提供的題目來練習切版。",
+      "image": "FEM3",
+      "link": "https://yyc1280.github.io/FEMentor-Map/",
+      "github": "https://github.com/yyc1280/FEMentor-Map"
     },
     {
       "name": "twitch",
