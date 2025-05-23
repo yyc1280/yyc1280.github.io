@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import works from "../static/content"
+import works from "../static/content.json"
 const Portfolio = () => {
   return (
     <div className="portfolio">

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
-import works from "../static/content"
+import works from "../static/content.json"
 import github from "../static/github.png"
 import link from "../static/link.png"
 

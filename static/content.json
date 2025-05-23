@@ -1,0 +1,76 @@
+{
+  "about": {
+    "bio": "陳彥瑜，台中人。大學主修化學，畢業後參加勞動部產業新尖兵計畫，首次接觸前端開發並深受吸引，之後持續透過線上資源自學網頁技術。\n在前一份工作中，擔任遊戲前端工程師，使用 TypeScript 進行遊戲畫面開發，與企劃、美術、後端工程師協作，參與多款遊戲專案，熟悉多人協作流程與需求溝通。\n除開發經驗外，我擁有還不錯的的語言能力（TOEIC 925、JLPT N1），能閱讀外語技術文件，自學與研究能力強。雖然非本科系出身，但我重視持續學習與實務經驗累積，過去的自學與開發歷程正是我轉換跑道與成長的證明。",
+    "skills": ["HTML5", "CSS3(SCSS)", "Tailwind", "Bootstrap", "JavaScript(TypeScript)", "React", "Node.js", "Git", "PixiJS", "Cocos Creator","WebSocket"],
+    "contact": "yenyu335@gmail.com",
+    "github": "https://github.com/yyc1280"
+  },
+  "pages": [
+    {
+      "name": "FEMentor3",
+      "title": "Space Tourism",
+      "text": "使用Frontend Mentor提供的題目來練習切版。\n使用Tailwind CSS，也嘗試使用Framer Motion對React元件進行動畫設計。",
+      "image": "FEM_space",
+      "link": "https://yyc1280.github.io/Frontend-Mentor-space-tourism-website/",
+      "github": "https://github.com/yyc1280/Frontend-Mentor-space-tourism-website"
+    },
+    {
+      "name": "spotify",
+      "title": "Spotify Clone",
+      "text": "使用React，使用者登入後可取得個人播放清單、最近播放歌曲等，學習到React context API搭配useReducer的用法。新增了歌詞頁面，與歌曲同步且能點擊跳轉播放進度。",
+      "image": "spotify",
+      "link": "https://mini-spotify.vercel.app/",
+      "github": "https://github.com/yyc1280/mini-spotify"
+    },
+    {
+      "name": "AJ",
+      "title": "AJ Boutique",
+      "text": "具購物車功能並串接金流的購物網站，使用Node.js作為後端、MongoDB Atlas作為資料庫，串接綠界ECPay。使用passport的Google OAuth2.0 authentication strategy。",
+      "image": "AJ",
+      "link": "https://aj-boutique.vercel.app/",
+      "github": "https://github.com/yyc1280/AJ-frontEnd"
+    },
+
+    {
+      "name": "ENCalendar",
+      "title": "EN Calendar",
+      "text": "由於沉迷vtuber而做的實況主行程表，使用FullCalendar串接google calendar。由於已經有觀眾做過了，只好借他的google calendar ID一用，做了一個類似但不盡相同的版本，顯示及隱藏的設定會儲存在local storage。2025的今天已經有兩個畢業了😭",
+      "image": "EN",
+      "link": "https://holo-en-calendar.vercel.app/",
+      "github": "https://github.com/yyc1280/HoloEN-Calendar"
+    },
+    {
+      "name": "TaskManager",
+      "title": "Task Manager",
+      "text": "使用Node.js作為後端，React作為前端的todo list，使用者可以註冊。Node.js部分為看Udemy學習，為了熟悉MERN stack以及Redux而做了前端。",
+      "image": "TM",
+      "link": "https://task-manager-front-end.vercel.app/",
+      "github": "https://github.com/yyc1280/task-manager-frontEnd"
+    },
+    {
+      "name": "twitch",
+      "title": "Twitch APP",
+      "text": "串接Twitch API作為練習，並實作infinite scroll，學習到wabpack、gulp的用途以及初步的使用方法。",
+      "image": "twitch",
+      "link": "https://mini-twitch.vercel.app/",
+      "github": "https://github.com/yyc1280/mini-twitch",
+      "skill": ""
+    },
+    {
+      "name": "FEMentor1",
+      "title": "Countdown Timer",
+      "text": "使用Frontend Mentor提供的題目來練習切版。",
+      "image": "FEM1",
+      "link": "https://fe-mentor-countdown-timer.vercel.app/",
+      "github": "https://github.com/yyc1280/FEmentor-countdown-timer"
+    },
+    {
+      "name": "FEMentor2",
+      "title": "Tip Calculator App",
+      "text": "使用Frontend Mentor提供的題目來練習切版。",
+      "image": "FEM2",
+      "link": "https://fe-mentor-tip-calculator-app.vercel.app/",
+      "github": "https://github.com/yyc1280/FEmentor-Tip-calculator-app"
+    }
+  ]
+}

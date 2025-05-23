@@ -129,10 +129,12 @@ body {
     }
     .links {
       margin-left: auto;
-      width: 70%;
+      // width: 70%;
       margin-top: 3vw;
       display: flex;
-      justify-content: space-evenly;
+      // justify-content: space-evenly;
+      justify-content: flex-end;
+      gap: 5%;
       a {
         border-radius: 50px;
         color: black;
@@ -173,7 +175,8 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   font-size: 1.5rem;
-  line-height: 2.5rem;
+  line-height: 2.5rem;    
+  white-space: pre-line;
   a {
     margin-top: 20px;
     display: inline-block;
@@ -182,10 +185,19 @@ body {
     border-radius: 50px;
     width: 66px;
     height: 66px;
+
     img {
       width: 50px;
       height: 50px;
     }
+  }
+  .skill {
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 0 4px 4px 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    font-size: 0.8em;
   }
 }
 
