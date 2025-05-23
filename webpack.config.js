@@ -1,5 +1,6 @@
-const path = require("path")
-const webpack = require("webpack")
+const path = require("path");
+const webpack = require("webpack");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.js",
@@ -9,38 +10,42 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /(node_modules|bower_components)/,
-        loader: "babel-loader",
-        options: { presets: ["@babel/env"] },
+        use: {
+          loader: "babel-loader",
+          options: { presets: ["@babel/env"] },
+        },
       },
       {
-        test: /\.css$/,
+        test: /\.css$/i,
         use: ["style-loader", "css-loader"],
       },
       {
         test: /\.(png|jpe?g|gif)$/i,
-        use: [
-          {
-            loader: "file-loader",
-            options: {
-              esModule: false,
-            },
-          },
-        ],
+        type: "asset/resource",
       },
     ],
   },
-  resolve: { extensions: ["*", ".js", ".jsx"] },
+  resolve: { extensions: [".js", ".jsx"] },
   output: {
-    path: path.resolve(__dirname, "dist/"),
-    publicPath: "/dist/",
+    path: path.resolve(__dirname, "dist"),
+    publicPath: "/",
     filename: "bundle.js",
+    clean: true,
   },
   devServer: {
-    contentBase: path.join(__dirname, "public/"),
+    static: {
+      directory: path.join(__dirname, "public"),
+    },
     port: 3000,
-    publicPath: "http://localhost:3000/dist/",
-    hotOnly: true,
+    hot: true,
     historyApiFallback: true,
+    open: true,
   },
-  plugins: [new webpack.HotModuleReplacementPlugin()],
-}
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+    new HtmlWebpackPlugin({
+      template: "./public/index.html",
+      filename: "index.html",
+    }),
+  ],
+};
